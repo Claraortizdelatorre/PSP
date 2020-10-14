@@ -9,7 +9,7 @@ public class Hilos extends Thread {
 	 */
 	public void buscarPrimos() {
 		int contador = 0;
-		for (int x = 2; x < 1000; x++) {
+		for (int x = 2; x < 100000; x++) {
 			boolean isPrime = true;
 
 			for (int j = 2; j < x; j++) {
